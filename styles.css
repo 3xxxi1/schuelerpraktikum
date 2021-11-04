@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #031224;
+}
+
+li, a, button{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-left: 50px;
+    font-family: sans-serif;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.searchbar{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: white;
+    padding: 3px 5px;
+}
+
+.nav_links li a:hover{
+    color: rgb(60, 214, 189);    
+}
+
+.jetzttesten{
+    background-color: #E50E6B;
+}
+
+.Nw-image{
+    position: absolute; 
+    top: 47%;
+    color: white;
+    font-size:80%;
+    font-family: sans-serif;
+    margin: 10px;
+    margin-left: 27%;
+    margin-right: 20%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.jetztstreamen-nw{
+    top: 49%;
+    margin-left: 1.5%;
+    position: absolute;
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 100%;
+    padding: 0.7%;
+    padding-left: 2.7%;
+    padding-right: 2.7%;
+}
+
+.jetztstreamen-nw:hover{
+    background-color: rgb(60, 214, 189);
+}
+
+.Top10{
+    color: white;
+    top: 73%;
+    position: absolute;
+    margin-left: 1.5%;
+    font-family: sans-serif;
+    font-size: 70%;
+    margin-bottom: 1%;
+
+}
+
+.top1-img{
+    margin-left: 3%;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+}
+
+.top1{
+    position: absolute; 
+    top: 423%;
+    color: white;
+    font-size:30px;
+    font-family: sans-serif;
+    margin: 2,7px;
+    cursor: pointer;
+}
+
+.top2-img{
+    margin-left: 281%;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+}
+
+.top2{
+    position: absolute; 
+    top: 415%;
+    color: white;
+    font-size:30px;
+    font-family: sans-serif;
+    margin: 3px;
+    cursor: pointer;
+    margin-left: 280%;
+}
+
+.top3-img{
+    margin-left: 557%;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+}
+
+.top3{
+    position: absolute; 
+    top: 415%;
+    color: white;
+    font-size:30px;
+    font-family: sans-serif;
+    margin: 3px;
+    cursor: pointer;
+    margin-left: 557%;
+}
+
+.top4-img{
+    margin-left: 833%;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+}
+
+.top4{
+    position: absolute; 
+    top: 415%;
+    color: white;
+    font-size:30px;
+    font-family: sans-serif;
+    margin: 3px;
+    cursor: pointer;
+    margin-left: 833%;
+}
+
+.top5-img{
+    margin-left: 1108%;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+}
+
+.top5{
+    position: absolute; 
+    top: 415%;
+    color: white;
+    font-size:30px;
+    font-family: sans-serif;
+    margin: 3px;
+    cursor: pointer;
+    margin-left: 1107%;
+    overflow: hidden;
+}
+
+.top6-img{
+    margin-left: 1385%;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+}
+
+.top6{
+    position: absolute; 
+    top: 415%;
+    color: white;
+    font-size:30px;
+    font-family: sans-serif;
+    margin: 3px;
+    cursor: pointer;
+    margin-left: 1385%;
+    overflow: hidden;
+}
+
+.top7-img{
+    margin-left: 1661%;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+}
+
+.top7{
+    position: absolute; 
+    top: 415%;
+    color: white;
+    font-size:30px;
+    font-family: sans-serif;
+    margin: 3px;
+    cursor: pointer;
+    margin-left: 1661%;
+    overflow: hidden;
+}
+
+.top8-img{
+    margin-left: 1939%;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+}
+
+.top8{
+    position: absolute; 
+    top: 415%;
+    color: white;
+    font-size:30px;
+    font-family: sans-serif;
+    margin: 3px;
+    cursor: pointer;
+    margin-left: 1939%;
+    overflow: hidden;
+}
+
+
+.Nochmehr{
+    color: white;
+    position: absolute;
+    margin-left: 2%;
+    font-family: sans-serif;
+    font-size: 120%;
+    top: 98%;
+}
+
+.EuPokal{
+    margin-left: 2%;
+    top: 101%;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+}
+
+.HOP{
+    margin-left: 16%;
+    top: 101%;
+    float: left;
+    cursor: pointer;
+    position: absolute;
+}
+
+
+
