@@ -101,153 +101,30 @@ header{
 
 }
 
-.top1-img{
-    margin-left: 3%;
-    float: left;
-    cursor: pointer;
-    position: absolute;
-}
-
-.top1{
-    position: absolute; 
-    top: 423%;
+.teaserrow {
+    display: flex;
+    flex-direction: row;
     color: white;
     font-size:30px;
     font-family: sans-serif;
-    margin: 2,7px;
+}
+
+.teaserrow img,
+.teaserrow div {
     cursor: pointer;
 }
 
-.top2-img{
-    margin-left: 281%;
-    float: left;
-    cursor: pointer;
-    position: absolute;
+.teaserrow div {
+    margin-right: 25px;
 }
 
-.top2{
-    position: absolute; 
-    top: 415%;
-    color: white;
-    font-size:30px;
-    font-family: sans-serif;
-    margin: 3px;
-    cursor: pointer;
-    margin-left: 280%;
+.ranking_number {
+    position: relative;
+    bottom: 40px;
+    height: 20px;
+    display: inline;
+    padding: 0 10px;
 }
-
-.top3-img{
-    margin-left: 557%;
-    float: left;
-    cursor: pointer;
-    position: absolute;
-}
-
-.top3{
-    position: absolute; 
-    top: 415%;
-    color: white;
-    font-size:30px;
-    font-family: sans-serif;
-    margin: 3px;
-    cursor: pointer;
-    margin-left: 557%;
-}
-
-.top4-img{
-    margin-left: 833%;
-    float: left;
-    cursor: pointer;
-    position: absolute;
-}
-
-.top4{
-    position: absolute; 
-    top: 415%;
-    color: white;
-    font-size:30px;
-    font-family: sans-serif;
-    margin: 3px;
-    cursor: pointer;
-    margin-left: 833%;
-}
-
-.top5-img{
-    margin-left: 1108%;
-    float: left;
-    cursor: pointer;
-    position: absolute;
-}
-
-.top5{
-    position: absolute; 
-    top: 415%;
-    color: white;
-    font-size:30px;
-    font-family: sans-serif;
-    margin: 3px;
-    cursor: pointer;
-    margin-left: 1107%;
-    overflow: hidden;
-}
-
-.top6-img{
-    margin-left: 1385%;
-    float: left;
-    cursor: pointer;
-    position: absolute;
-}
-
-.top6{
-    position: absolute; 
-    top: 415%;
-    color: white;
-    font-size:30px;
-    font-family: sans-serif;
-    margin: 3px;
-    cursor: pointer;
-    margin-left: 1385%;
-    overflow: hidden;
-}
-
-.top7-img{
-    margin-left: 1661%;
-    float: left;
-    cursor: pointer;
-    position: absolute;
-}
-
-.top7{
-    position: absolute; 
-    top: 415%;
-    color: white;
-    font-size:30px;
-    font-family: sans-serif;
-    margin: 3px;
-    cursor: pointer;
-    margin-left: 1661%;
-    overflow: hidden;
-}
-
-.top8-img{
-    margin-left: 1939%;
-    float: left;
-    cursor: pointer;
-    position: absolute;
-}
-
-.top8{
-    position: absolute; 
-    top: 415%;
-    color: white;
-    font-size:30px;
-    font-family: sans-serif;
-    margin: 3px;
-    cursor: pointer;
-    margin-left: 1939%;
-    overflow: hidden;
-}
-
 
 .Nochmehr{
     color: white;
