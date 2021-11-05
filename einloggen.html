@@ -1,5 +1,40 @@
 <!DOCTYPE html>
 
+<style>
+
+*{
+    font-family: sans-serif;
+}
+
+.einloggen-kopf{
+    color: white;
+    cursor: pointer;
+}
+
+.log-in{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 39%;
+}
+
+.submit{
+    color: white;
+    position: absolute;
+    left: 40%;
+    margin-top: 3%;
+}
+
+.account{
+    color: white;
+    position:absolute;
+    bottom: 3%;
+    left: 43%;
+    cursor: pointer;
+}
+
+</style>
+
 <html>
     <head>
         <title>EINLOGGEN</title>
@@ -9,9 +44,26 @@
     <body>
         <header>
             <a href="index.html">
-                <img class="logo" src="TV-Now-Logo.jpeg" width="150" alt="logo">
+                <img class="logo" src="assets/TV-Now-Logo.jpeg" width="150" alt="logo">
             </a>
             <div class="einloggen-kopf">EINLOGGEN</div>
         </header>
+        <main>
+            <div class="log-in">
+                <h1>WILLKOMMEN ZURÜCK!</h1>
+                <form method="post">
+                    <label>Name:</label>
+                    <input class="text" name="name"><br>
+                    <label>Email:</label>
+                    <input class="email" name="email" required> <br>
+                    <button class="submit">ANMELDEN</button>     
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="account">
+                <h3>Du hast noch kein Account?</h3>
+            </div>
+        </footer>
     </body>
 </html>
